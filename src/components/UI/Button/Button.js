@@ -31,7 +31,7 @@ const Button = styled.button`
 //styled components ^
 import React from 'react';
 //css MODULES, need to rename Button.css to Button.module.css\/
-import styles from './Button.css';
+//import styles from './Button.css';
 const Button = props => {
   return (
     <button type={props.type} className="button" onClick={props.onClick}>
